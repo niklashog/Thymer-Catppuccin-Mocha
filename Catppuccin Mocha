@@ -157,4 +157,7 @@
 	--enum-pink-bg: rgba(245, 194, 231, 0.25);
 	--enum-pink-fg: #f5c2e7;
 
+    /* Note blocks */
+    --ed-block-note-bg: color-mix(in srgb, transparent 60%, #89b4fa 8%);
+    --ed-block-note-border: #89b4fa;
 }
