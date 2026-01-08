@@ -1,0 +1,93 @@
+/**
+ * Quick Capture by plugin made by Dave. Discord id #942368738945138689
+ * Ctrl+P → "Quick Capture" → Type your thought → Instantly added to today's Journal
+ */
+
+// Dialog CSS
+const DIALOG_CSS = `
+    .quick-capture-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(17, 17, 27, 0.7); /* Mocha Crust */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 10000;
+        backdrop-filter: blur(4px);
+    }
+    .quick-capture-dialog {
+        background: #1e1e2e; /* Mocha Base */
+        border: 1px solid #45475a; /* Mocha Surface1 */
+        border-radius: 12px;
+        padding: 24px;
+        width: 500px;
+        max-width: 90vw;
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+    }
+    .quick-capture-title {
+        font-size: 18px;
+        font-weight: 600;
+        color: #cdd6f4; /* Mocha Text */
+        margin-bottom: 16px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    .quick-capture-title .ti {
+        color: #cba6f7; /* Mocha Mauve */
+    }
+    .quick-capture-textarea {
+        width: 100%;
+        height: 120px;
+        background: #313244; /* Mocha Surface0 */
+        border: 1px solid #45475a; /* Mocha Surface1 */
+        border-radius: 8px;
+        padding: 12px;
+        font-family: var(--font-family);
+        font-size: 14px;
+        color: #cdd6f4; /* Mocha Text */
+        resize: vertical;
+        margin-bottom: 16px;
+        transition: border-color 0.2s ease;
+    }
+    .quick-capture-textarea:focus {
+        outline: none;
+        border-color: #cba6f7; /* Mocha Mauve */
+    }
+    .quick-capture-textarea::placeholder {
+        color: #6c7086; /* Mocha Overlay0 */
+    }
+    .quick-capture-buttons {
+        display: flex;
+        gap: 8px;
+        justify-content: flex-end;
+    }
+    .quick-capture-btn {
+        padding: 8px 16px;
+        border-radius: 6px;
+        font-size: 14px;
+        font-weight: 500;
+        cursor: pointer;
+        border: none;
+        transition: all 0.2s ease;
+    }
+    .quick-capture-btn-primary {
+        background: #cba6f7; /* Mocha Mauve */
+        color: #11111b; /* Mocha Crust */
+    }
+    .quick-capture-btn-primary:hover {
+        background: #f5c2e7; /* Mocha Flamingo - provides a soft, warm hover */
+        transform: translateY(-1px);
+        box-shadow: 0 4px 12px rgba(203, 166, 247, 0.2);
+    }
+    .quick-capture-btn-secondary {
+        background: #45475a; /* Mocha Surface1 */
+        color: #cdd6f4; /* Mocha Text */
+    }
+    .quick-capture-btn-secondary:hover {
+        background: #585b70; /* Mocha Surface2 */
+    }
+`;
