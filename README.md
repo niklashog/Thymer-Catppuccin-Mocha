@@ -5,3 +5,8 @@ Catppuccin Mocha Theme for Thymer notes application. The IDE for Notes, Tasks an
 1. Open the catppuccin mocha css in this repository and copy (Ctrl + C) all of its contents.
 2. Open up Thymer. Press Ctrl + P >  Upload Custom CSS > paste (Ctrl + V) > Click Save. 
 3. Press Ctrl + P again > Set Theme & Dark or Light Appearance > Catppuccin Mocha.
+
+
+## Latest updates
+### 08/01-2026
+Added blue colour to note blocks
