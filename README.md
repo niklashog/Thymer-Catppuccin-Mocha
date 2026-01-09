@@ -9,5 +9,7 @@ Plugin themes have the same installation process.
 
 
 ## Latest updates
+### 09/01-2026
+Added thick, beautiful caret.
 ### 08/01-2026
 Added blue colour to note blocks
