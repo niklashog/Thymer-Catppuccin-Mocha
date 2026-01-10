@@ -9,9 +9,9 @@ Plugin themes have the same installation process.
 
 ## Changelog
 ### 10/01-2026
-- Lighter tone of colour on main panel to match the official mocha theme.
-- Change color of tables and remove shadow effect to match the new main window background color
-- Styling on the dotted circle and center colour to match theme
+- Change of background colour in main windows (the official correct lighter tone).
+- Darker tables border colors and removing shadow effect to match the new background color.
+- Styling on the dotted circle and center colour to better align with theme.
   
 ### 09/01-2026
 - Added thick, beautiful caret.
