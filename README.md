@@ -14,8 +14,8 @@ Find these variables and give them these hexcodes css.
 	--color-bg-900: #181825;  /* Main window */
 ```
 
-## Looking to change stuff according to the official palette?
-Follow this link https://catppuccin.com/palette/
+## Not liking a colour choice?
+This is your source https://catppuccin.com/palette/
 
 ## Changelog
 ### 10/01-2026
