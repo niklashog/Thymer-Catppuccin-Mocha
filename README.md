@@ -13,6 +13,10 @@ Find these variables and give them these hexcodes css.
 	--color-bg-800: #1e1e2e;  /* Sidebar */
 	--color-bg-900: #181825;  /* Main window */
 ```
+
+## Looking to change stuff according to the official palette?
+Follow this link https://catppuccin.com/palette/
+
 ## Changelog
 ### 10/01-2026
 - Change of background colour in main windows (the official correct lighter tone).
