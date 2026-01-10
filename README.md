@@ -15,7 +15,7 @@ Find these variables and give them these hexcodes css.
 ```
 
 ## Not liking a colour choice?
-This is your source https://catppuccin.com/palette/
+Go here and make a change: https://catppuccin.com/palette/
 
 ## Changelog
 ### 10/01-2026
