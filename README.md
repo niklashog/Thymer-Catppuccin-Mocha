@@ -7,16 +7,6 @@ Plugin themes have the same installation process.
 2. Open up Thymer. Press Ctrl + P >  Upload Custom CSS > paste (Ctrl + V) > Click Save. 
 3. Press Ctrl + P again > Set Theme & Dark or Light Appearance > Catppuccin Mocha.
 
-## But I want the main window to be darker than the sidebar again!
-Find these variables and give them these hexcodes css.
-```
-	--color-bg-800: #1e1e2e;  /* Sidebar */
-	--color-bg-900: #181825;  /* Main window */
-```
-
-## Not liking a colour choice?
-Go here and make a change: https://catppuccin.com/palette/
-
 ## Changelog
 ### 10/01-2026
 - Change of background colour in main windows (the official correct lighter tone).
@@ -27,3 +17,13 @@ Go here and make a change: https://catppuccin.com/palette/
 - Added thick, beautiful caret.
 ### 08/01-2026
 - Added blue colour to note blocks
+
+## Not liking a colour choice?
+Go here and make a change: https://catppuccin.com/palette/
+
+## But I want the main window to be darker than the sidebar again!
+Find these variables and give them these hexcodes css.
+```
+	--color-bg-800: #1e1e2e;  /* Sidebar */
+	--color-bg-900: #181825;  /* Main window */
+```
