@@ -2,6 +2,9 @@
 Catppuccin Mocha Theme for Thymer notes application. The IDE for Notes, Tasks and Planning.
 Plugin themes have the same installation process.
 
+<img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/c3598fa4-b293-46de-84a5-55669f1f824e" />
+
+
 ## How to apply theme:
 1. Open the Thymer Catppuccin Cocha CSS in this repository and copy (Ctrl + C) all of its contents.
 2. Open up Thymer. Press Ctrl + P >  Upload Custom CSS > paste (Ctrl + V) > Click Save. 
