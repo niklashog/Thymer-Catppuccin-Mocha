@@ -7,8 +7,8 @@ Plugin themes have the same installation process.
 2. Open up Thymer. Press Ctrl + P >  Upload Custom CSS > paste (Ctrl + V) > Click Save. 
 3. Press Ctrl + P again > Set Theme & Dark or Light Appearance > Catppuccin Mocha.
 
-## To do
-- Background colours on noteblocks are inconsistent with the new main background colour
+## To do / work in progress
+- Background colours on plain blocks, code blocks and warnings are inconsistent with the palette.
 - Colour of headings
 
 ## Changelog
