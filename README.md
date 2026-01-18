@@ -24,10 +24,6 @@ Plugin themes have the same installation process.
 ### 08/01-2026
 - Added blue colour to note blocks
 
-## Colour matching in other plugins
-### Excalidraw Plugin by Ed Nico: Set bg colour to #eee1 in dark mode / #1e1e2e in light mode.
-### Quick Capture plugin
-
 ## Not liking a colour choice?
 Go here and find your substitute: https://catppuccin.com/palette/
 
