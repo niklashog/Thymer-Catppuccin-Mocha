@@ -19,14 +19,17 @@ Plugin themes have the same installation process.
 - Change of background colour in main windows (the official correct lighter tone).
 - Darker tables border colors and removing shadow effect to match the new background color.
 - Styling on the dotted circle and center colour to better align with theme.
-  
 ### 09/01-2026
 - Added thick, beautiful caret.
 ### 08/01-2026
 - Added blue colour to note blocks
 
+## Colour matching in other plugins
+### Excalidraw Plugin by Ed Nico: Set bg colour to #eee1 in dark mode / #1e1e2e in light mode.
+### Quick Capture plugin
+
 ## Not liking a colour choice?
-Go here and make a change: https://catppuccin.com/palette/
+Go here and find your substitute: https://catppuccin.com/palette/
 
 ## But I want the main window to be darker than the sidebar again!
 Find these variables and give them these hexcodes css.
